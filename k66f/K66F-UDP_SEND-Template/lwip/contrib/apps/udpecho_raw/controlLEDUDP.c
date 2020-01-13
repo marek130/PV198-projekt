@@ -57,7 +57,7 @@ static void parseUDPpacket(void *arg, struct udp_pcb *upcb, struct pbuf *p,
 
 void changeColorViaUDP(void) {
   pcb = udp_new_ip_type(IPADDR_TYPE_ANY);
-  if (udpecho_raw_pcb != NULL) {
+  if (pcb != NULL) {
     err_t err;
 
     err = udp_bind(pcb, IP_ANY_TYPE, 7777);
