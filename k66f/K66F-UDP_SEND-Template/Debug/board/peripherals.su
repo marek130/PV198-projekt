@@ -1,0 +1,5 @@
+fsl_ftm.h:667:20:FTM_StartTimer	24	static
+peripherals.c:129:6:FTM_1_init	16	static
+peripherals.c:207:6:FTM_2_init	16	static
+peripherals.c:217:6:BOARD_InitPeripherals	8	static
+peripherals.c:227:6:BOARD_InitBootPeripherals	8	static
